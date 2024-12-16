@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "authentication.h": "c",
+        "gtk.h": "c"
+    }
+}

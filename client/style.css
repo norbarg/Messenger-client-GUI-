@@ -1,0 +1,60 @@
+window {
+    background-color: #5c504a; 
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+headerbar {
+    font-weight: 500;
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+    border: none; 
+    background-image: none;
+    background-color: #40342E;
+    color: #ffffff;
+}
+
+headerbar button.titlebutton {
+    border: none; 
+    background-color: #40342E;
+    color: #ffffff;
+}
+
+headerbar .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button, .button {
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 5px;
+    border: none; 
+    background-image: none;
+    background-color: #CEC1B1;
+    color: rgb(0, 0, 0);
+    outline: none;
+    box-shadow: none;
+}
+
+button:hover, .button:hover {
+    background-color: #c2a692; 
+}
+
+button:focus, .button:focus {
+    outline: none; 
+    box-shadow: none;
+}
+
+entry, .entry {
+    font-weight: 500;
+    background-color: #D8CDC1; 
+    color: #2d2522; 
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#error_label{
+    color: red;
+}

@@ -1,0 +1,345 @@
+#chat_container{
+    background-color: #58473F;
+}
+
+#top_bar {
+    background-color: #2B231E;
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
+
+#search_entry {
+    background-color: #D9D9D9;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+}
+
+#center_label {
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: #ffffff; 
+    font-size: 16px; 
+    padding: 3px 20px; 
+    border-radius: 15px; 
+    font-weight: bold;
+}
+
+#chat_name_label {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+textview text{
+    background-color: #D9D9D9 ;
+    border-radius: 15px;
+}
+
+
+#message_entry_scrolled_window {
+    background-color: #D9D9D9 ;
+    border: 1px solid #D9D9D9;
+    padding: 5px;
+    border-radius: 15px;  
+}
+
+#message_entry_scrolled_window textview {
+    padding: 13px;
+    background-color: #D9D9D9 ;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+#message_entry_container {
+    background-color: #58473F;
+    color: #FFFFFF;
+    padding: 10px 0;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+#send_button {
+    border-radius: 50%;
+    background-color: #40342E;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    margin-right: 0px;
+    outline: none;
+}
+
+#send_button:hover{
+    background-color: #5c504a;
+    transition-duration: 0.1s;
+    background-image: none;
+}
+
+#side_panel {
+    background-color: #40342E;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#features_button {
+    background-color: #D9D9D9;
+    color: #615955;
+    border-radius: 25px;
+    margin: 10px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#chat_area {
+    background-color: #58473F;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#chat_container {
+    background-color: #58473F;
+}
+
+#feature_buttons_box {
+    background-color: #D9D9D9;
+    padding: 8px;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 70px;
+    margin-right: 20px;
+}
+
+#feature_buttons_box button {
+    background-color: #58473F;
+    color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    padding: 8px 20px;    
+    margin: 3px 0; 
+    font-weight: bold;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#feature_buttons_box button:hover {
+    background-color: #756259;
+    outline: none;
+}
+
+#contact_window, #group_window, #profile_window,  #add_members_window {
+    background-color: #58473F;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+headerbar {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-image: none;
+    background-color: #2B231E;
+    color: #ffffff;
+}
+
+headerbar button.titlebutton {
+    border: none;
+    background-color: #2B231E;
+    color: #ffffff;
+}
+
+headerbar .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+#prof_avatar_icon{
+    color: #D9D9D9;
+}
+
+#profile_button, #menu_button {
+    background-color: #D9D9D9 ; 
+    border-radius: 15px;      
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#profile_button:hover, #menu_button:hover {
+    background-color: #BABABA; 
+    outline: none;
+}
+
+#name_entry, #members_entry, #title_entry, #username_entry, #password_entry {
+    background-color: #D9D9D9;
+    color: #2B231E;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 7px 7px;
+    margin: 10px 10px 0 10px;
+    border: none;
+    outline: none;
+}
+
+#enter_button, #confirm_button {
+    background-color: #D9D9D9;
+    color: #2B231E;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 7px 0px;
+    margin: 0px 25px 10px 25px;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#contact_button, #group_button {
+    background-color: rgb(90, 67, 56);
+    color: #ffffff;
+    border-radius: 0px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    min-height: 50px;
+    margin-bottom: 3px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+#contact_button:active, #contact_button:checked, #group_button:active, #group_button:checked {
+    background-image: none;
+    background-color: #756259; 
+    border: none;
+    border-radius: 0;
+}
+
+#contact_button:hover, #group_button:hover {
+    background-color: #756259;
+    transition-duration: 0.1s;
+    background-image: none;
+}
+
+#outgoing_message_bubble {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+   
+}
+
+#incoming_message_bubble {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+   
+}
+
+#time_label {
+    font-size: 10px;
+    color: #ffffff;
+    
+}
+
+#avatar_image {
+    color: #D9D9D9;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#username_label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#message_popover {
+    background-color: #BABABA;
+    border-radius: 8px; 
+    border: 1px ;
+    padding: 5px; 
+}
+
+
+#message_popover button {
+    background-color: #58473F;
+    color: #ffffff;
+    border: none; 
+    border-radius: 5px; 
+    padding: 12px 18px; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+    font-size: 14px; 
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#menu_popover button{
+    background-color: #58473F; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 12px 18px; 
+    font-weight: bold; 
+    font-size: 14px; 
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+#menu_popover button:hover, #message_popover button:hover {
+    background-color: #756259; 
+}
+
+#menu_popover button:active, #message_popover button:active {
+    background-color: #756259; 
+}
+
+#quote_box {
+    background-color: #756259; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    color: #d6d6d6;
+    font-size: 12px; 
+    font-style: italic; 
+}
+
+#auth_dialog{
+    background-color: #2B231E;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+#close_button{
+    background-color: #58473F;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 7px 0px;
+    margin: 0 20px;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+#label{
+    color: #FFFFFF;
+}

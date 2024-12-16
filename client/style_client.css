@@ -1,0 +1,341 @@
+#chat_container{
+    background-color: #CEC1B1;
+}
+
+#top_bar {
+    background-color: #40342E;
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
+
+#search_entry {
+    background-color: #D9D9D9;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+}
+
+#center_label {
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: #ffffff; 
+    font-size: 16px; 
+    padding: 3px 20px; 
+    border-radius: 15px; 
+    font-weight: bold;
+}
+
+#chat_name_label {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+textview text{
+    background-color: #D9D9D9 ;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: none;
+
+}
+#message_entry_scrolled_window scrollbar slider {
+    outline: none;
+    box-shadow: none;
+}
+
+#message_entry_scrolled_window {
+    background-color: #D9D9D9 ;
+    border: 1px solid #D9D9D9;
+    padding: 5px;
+    border-radius: 15px;  
+}
+
+#message_entry_scrolled_window textview {
+    padding: 13px;
+    background-color: #D9D9D9 ;
+    border: 1px solid #D9D9D9;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#message_entry_container {
+    background-color: #CEC1B1;
+    padding: 10px 0;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+#send_button {
+    border-radius: 50%;
+    background-color: #40342E;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    margin-right: 0px;
+    outline: none;
+}
+
+#send_button:hover{
+    background-color: #5c504a;
+    transition-duration: 0.1s;
+    background-image: none;
+}
+
+#side_panel {
+    background-color: #A6998F;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#features_button {
+    background-color: #bfbfbf;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 10px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#chat_area {
+    background-color: #CEC1B1;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#chat_container {
+    background-color: #CEC1B1;
+}
+
+#feature_buttons_box {
+    background-color: #D9D9D9;
+    padding: 8px;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 70px;
+    margin-right: 20px;
+}
+
+#feature_buttons_box button {
+    background-color: #CEC1B1;
+    color: #FFFFFF;
+    border-radius: 10px; 
+    padding: 8px 20px;    
+    margin: 3px 0;        
+    font-weight: bold;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#feature_buttons_box button:hover {
+    background-color: #c2a692;
+    outline: none;
+}
+
+#contact_window, #group_window, #profile_window, #add_members_window {
+    background-color: #A6998F;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+headerbar {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-image: none;
+    background-color: #40342E;
+    color: #ffffff;
+}
+
+headerbar button.titlebutton {
+    border: none;
+    background-color: #40342E;
+    color: #ffffff;
+}
+
+headerbar .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+#name_entry, #members_entry, #title_entry, #username_entry, #password_entry {
+    background-color: #d0c2ae;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 7px 7px;
+    margin: 10px 10px 0 10px;
+    border: none;
+    outline: none;
+}
+
+#enter_button, #confirm_button {
+    background-color: #d0c2ae;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 7px 0px;
+    margin: 0px 25px 10px 25px;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#contact_button, #group_button {
+    background-color: #c7b29c;
+    color: #ffffff;
+    border-radius: 0px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    min-height: 50px;
+    margin-bottom: 3px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+#contact_button:active, #contact_button:checked, #group_button:active, #group_button:checked {
+    background-image: none;
+    background-color: #D8CDC1; 
+    border: none;
+    border-radius: 0;
+}
+
+#contact_button:hover, #group_button:hover {
+    background-color: #c2a692;
+    transition-duration: 0.1s;
+    background-image: none;
+}
+
+#message_bubble {
+    background-color: #d6cec3;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #000;
+   
+}
+
+#time_label {
+    font-size: 10px;
+    color: #5f5f5f;
+    
+}
+
+#avatar_image {
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#username_label {
+    font-weight: bold;
+    color: #333;
+}
+
+#message_popover {
+    background-color: #e6dfd6; 
+    border-radius: 8px; 
+    border: 1px solid #c4b8ae; 
+    padding: 5px; 
+}
+
+
+#message_popover button {
+    background-color: #c8b9a8; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px;
+    padding: 12px 18px; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+    font-size: 14px; 
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#menu_popover button{
+    background-color: #c8b9a8; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px;
+    padding: 12px 18px; 
+    font-weight: bold;
+    font-size: 14px; 
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#menu_popover button:hover, #message_popover button:hover {
+    background-color: #b9a08d; 
+}
+
+#menu_popover button:active, #message_popover button:active {
+    background-color: #a58974; 
+}
+
+#quote_box {
+    background-color: #D9CFC5; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    color: #6E5D55;
+    font-size: 12px; 
+    font-style: italic; 
+}
+
+
+#profile_button, #menu_button {
+    background-color: #D9D9D9; 
+    border-radius: 15px;      
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#profile_button:hover, #menu_button:hover {
+    background-color: #7C6D67; 
+    outline: none;
+}
+
+#auth_dialog{
+    background-color: #CEC1B1;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+#auth_dialog button{
+    background-color: #40342E;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 7px 0px;
+    margin: 0 20px;
+    border: none;
+    background-image: none;
+    outline: none;
+    box-shadow: none;
+}
+#label{
+    color: #000;
+}
